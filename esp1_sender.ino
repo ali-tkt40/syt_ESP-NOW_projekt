@@ -29,14 +29,14 @@ void setup() {
   // WLAN in den Station-Modus versetzen (wird zwingend für ESP-NOW benötigt)
   WiFi.mode(WIFI_STA);
 
-  // 🔥 ESP-NOW START CHECK
+  //  ESP-NOW START CHECK
   // Initialisiert das ESP-NOW Protokoll und bricht bei Fehlern ab
   if (esp_now_init() != ESP_OK) {
     Serial.println("ESP-NOW INIT FEHLER!");
     return;
   }
 
-  // 🔥 PEER SETUP
+  //  PEER SETUP
   // Informationen über das Empfängergerät (Peer) konfigurieren
   esp_now_peer_info_t peerInfo = {};
   memcpy(peerInfo.peer_addr, receiverMAC, 6); // Kopiert die MAC-Adresse in die Peer-Struktur
