@@ -332,4 +332,4 @@ Das System reagiert im laufenden Betrieb dynamisch auf die empfangenen Sensorwer
 * 1x Aktiv-Buzzer
 * Breadboards und Jumper-Kabel
 
-*(Hinweis: Die physischen Fotos des Aufbaus, die Fritzing-Schaltpläne sowie die interaktiven Simulations-Links zu Tinkercad/Wokwi sind vollständig im Projekt-Repository unter /schaltplaene und /fotos hinterlegt.)*
+
