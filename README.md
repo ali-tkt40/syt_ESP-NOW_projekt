@@ -332,4 +332,7 @@ Das System reagiert im laufenden Betrieb dynamisch auf die empfangenen Sensorwer
 * 1x Aktiv-Buzzer
 * Breadboards und Jumper-Kabel
 
+<img width="897" height="531" alt="ESP1_Schaltplan" src="https://github.com/user-attachments/assets/634afbec-115a-439a-8f95-3f3aac4b1a37" />
+<img width="1317" height="801" alt="ESP2_Schaltplan" src="https://github.com/user-attachments/assets/d4a95685-24f9-4213-9bd7-a09ffc32eec4" />
+
 
