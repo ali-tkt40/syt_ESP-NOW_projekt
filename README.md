@@ -33,7 +33,7 @@ Im System kommen zwei unterschiedliche Sensortypen zum Einsatz. Der PIR-Sensor (
 
 ### 4.2 Software-Implementierung
 Der Code wurde in C++ für die Arduino-IDE entwickelt. Dabei wurde eine identische Datenstruktur (`struct_message`) auf beiden Geräten definiert, um eine fehlerfreie Datenübergabe zu gewährleisten.
-
+```cpp
 #include <WiFi.h>      // Bibliothek für die WLAN-Funktionen des ESP32
 #include <esp_now.h>   // Bibliothek für das verbindunglose ESP-NOW Protokoll
 
@@ -108,11 +108,12 @@ void loop() {
   // Wartezeit von 500 Millisekunden bis zur nächsten Messung/Übertragung
   delay(500);
 }
+```
 
 *Beschreibung des Sender-Codes:* Die Struktur sorgt dafür, dass die Zustände von Flamme und Bewegung kompakt gebündelt übertragen werden. Im setup() wird der WLAN-Stack im Modus WIFI_STA initialisiert und der Empfänger über seine eindeutige MAC-Adresse registriert. Die loop() liest die Sensoren zyklisch ein und stößt alle 500 Millisekunden die Übertragung an.
 
 ---
-
+```cpp
 #include <WiFi.h>              // Bibliothek für die WLAN-Funktionen des ESP32
 #include <esp_now.h>           // Bibliothek für das verbindunglose ESP-NOW Protokoll
 #include <WebServer.h>         // Bibliothek für die Bereitstellung des Webinterfaces
@@ -297,6 +298,7 @@ void setup() {
 void loop() {
   server.handleClient(); // Fortlaufend eingehende HTTP-Anfragen des Webservers verarbeiten
 }
+```
 
 *Beschreibung des Empfänger-Codes:* Nach dem Start initialisiert der Empfänger das OLED-Display und startet einen eigenen WLAN-Accesspoint mit dem Namen "ESP32-ALARM". Sobald Daten über die registrierte Callback-Funktion `onReceive` eingehen, wird die Alarm-Logik abgearbeitet, das Display aktualisiert und der Webserver bedient.
 
