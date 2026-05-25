@@ -33,6 +33,8 @@ Im System kommen zwei unterschiedliche Sensortypen zum Einsatz. Der PIR-Sensor (
 
 ### 4.2 Software-Implementierung
 Der Code wurde in C++ für die Arduino-IDE entwickelt. Dabei wurde eine identische Datenstruktur (`struct_message`) auf beiden Geräten definiert, um eine fehlerfreie Datenübergabe zu gewährleisten.
+
+Code vom ESP1(Sender)
 ```cpp
 #include <WiFi.h>      // Bibliothek für die WLAN-Funktionen des ESP32
 #include <esp_now.h>   // Bibliothek für das verbindunglose ESP-NOW Protokoll
@@ -113,6 +115,8 @@ void loop() {
 *Beschreibung des Sender-Codes:* Die Struktur sorgt dafür, dass die Zustände von Flamme und Bewegung kompakt gebündelt übertragen werden. Im setup() wird der WLAN-Stack im Modus WIFI_STA initialisiert und der Empfänger über seine eindeutige MAC-Adresse registriert. Die loop() liest die Sensoren zyklisch ein und stößt alle 500 Millisekunden die Übertragung an.
 
 ---
+
+Code vom ESP2(Empfänger)
 ```cpp
 #include <WiFi.h>              // Bibliothek für die WLAN-Funktionen des ESP32
 #include <esp_now.h>           // Bibliothek für das verbindunglose ESP-NOW Protokoll
