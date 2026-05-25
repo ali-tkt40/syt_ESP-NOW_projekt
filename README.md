@@ -1,4 +1,4 @@
-# syt_ESP-NOW_projekt
+# SYT_ESP-NOW_Projekt
 # ITP-Projekt: Drahtlose Sensor-Erfassung & Visualisierung via ESP-NOW
 
 **Verfasser:** Ali Ahmet Tanrikut, Djordje Stojanovic
