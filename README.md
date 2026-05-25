@@ -1,6 +1,6 @@
 # ITP-Projekt: Drahtlose Sensor-Erfassung & Visualisierung via ESP-NOW
 
-**Verfasser:** Dein Name / Gruppennamen  
+**Verfasser:** Ali Tanriut, Djordje Stojanovic  
 **Datum:** 25.05.2026  
 
 ---
