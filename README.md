@@ -340,4 +340,30 @@ Schaltplan von ESP1(Sender)
 Schaltplan von ESP2(Empfänger)
 <img width="1317" height="801" alt="ESP2_Schaltplan" src="https://github.com/user-attachments/assets/d4a95685-24f9-4213-9bd7-a09ffc32eec4" />
 
+# Quellenverzeichnis: ITP-Projekt Drahtlose Sensor-Erfassung & Visualisierung via ESP-NOW
 
+Hier finden Sie die Dokumentation, technischen Datenblätter und Programmierreferenzen, die für die Umsetzung des Projekts herangezogen wurden.
+
+## 1. Offizielle Dokumentation & Protokolle
+
+* **Espressif Systems (2024): ESP-NOW User Guide** Offizielle Protokollbeschreibung und Implementierungsrichtlinien für die verbindunglose Peer-to-Peer-Kommunikation.  
+  URL: [https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_now.html](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_now.html)
+
+* **Espressif Systems (2023): ESP32 Technical Reference Manual** Ausführliche Dokumentation der Hardware-Architektur, der GPIO-Matrix und der integrierten Wi-Fi-Peripherie.  
+  URL: [https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf)
+
+## 2. Software-Bibliotheken & Programmierreferenzen
+
+* **Arduino-Core für ESP32 GitHub Repository** Referenz für die Integration der Bibliotheken `<WiFi.h>` und `<WebServer.h>` in der Arduino-IDE-Umgebung.  
+  URL: [https://github.com/espressif/arduino-esp32](https://github.com/espressif/arduino-esp32)
+
+* **Adafruit Industries: SSD1306 OLED Display Library** Dokumentation und Quellcode der Bibliotheken `<Adafruit_SSD1306.h>` und `<Adafruit_GFX.h>` zur pixelbasierten Ansteuerung des Displays über den I2C-Bus.  
+  URL: [https://github.com/adafruit/Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
+
+## 3. Sensorik & Aktorik Datenblätter
+
+* **Datasheet PIR-Bewegungssensor (HC-SR501)** Technische Spezifikation zur Funktionsweise der passiven Infrarot-Detektion und Signalzeitenbestimmung.  
+  URL: [https://components101.com/sensors/hc-sr501-pir-sensor](https://components101.com/sensors/hc-sr501-pir-sensor)
+
+* **Datasheet Flammensensor / Infrarot-Empfängerdiode** Spezifikation zur Detektion von IR-Wellenlängen im Bereich von 760 nm bis 1100 nm.  
+  URL: [https://components101.com/sensors/flame-sensor-module-pinout-features-datasheet](https://components101.com/sensors/flame-sensor-module-pinout-features-datasheet)
