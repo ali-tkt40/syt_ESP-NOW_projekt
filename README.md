@@ -462,6 +462,11 @@ Das System reagiert im laufenden Betrieb dynamisch auf die empfangenen Sensorwer
 * 1x Aktiv-Buzzer
 * Breadboards und Jumper-Kabel
 
+Foto vom aufgebautem Projekt
+<img width="1600" height="1200" alt="Foto vom projekt" src="https://github.com/user-attachments/assets/c08fa071-f7cc-4fd6-8fde-8f5fcbc9e024" />
+
+---
+
 Schaltplan von ESP1(Sender)
 <img width="897" height="531" alt="ESP1_Schaltplan" src="https://github.com/user-attachments/assets/634afbec-115a-439a-8f95-3f3aac4b1a37" />
 
