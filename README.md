@@ -480,6 +480,10 @@ Schaltplan von ESP2(Empfänger)
 * **Espressif Systems: ESP-NOW User Guide** – Offizielle Protokollbeschreibung und API-Referenz für die drahtlose Peer-to-Peer-Kommunikation.  
   URL: [https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_now.html](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_now.html)
 
+
+* **Tzapu & Tablatronix: WiFiManager Library for ESPx Boards** – Offizielle Dokumentation und Referenz der Arduino-Bibliothek zur dynamischen Verwaltung von WLAN-Zugangsdaten über ein Captive Portal, ohne diese fest im Programmcode (Hardcoding) zu hinterlegen.  
+  URL: [https://github.com/tzapu/WiFiManager](https://github.com/tzapu/WiFiManager)
+
 * **Espressif Systems: Arduino-Core für ESP32** – Dokumentation und Quellcode-Basis für die genutzten Bibliotheken (`WiFi.h` und `WebServer.h`).  
   URL: [https://github.com/espressif/arduino-esp32](https://github.com/espressif/arduino-esp32)
 
